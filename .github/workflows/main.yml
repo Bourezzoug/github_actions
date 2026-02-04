@@ -3,12 +3,12 @@ name: First-Workflow
 on:
   push:
     branches:
-     - main
+      - main
 
 jobs:
-    example-job:
-      runs-on: ubuntu-latest
+  example-job:
+    runs-on: ubuntu-latest
 
-      steps:
-        - name: Print a welcome message
+    steps:
+      - name: Print a welcome message
         run: echo "Welcome To Our First Github Workflow"
